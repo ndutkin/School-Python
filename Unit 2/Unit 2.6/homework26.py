@@ -64,5 +64,4 @@ def budget():
     The code above will print the total spending of the user, and then it will print the percentage of each category that the user spends on.
     This will print seperate lines for each category, which I believe is the most readable way to display the information. 
     '''
-if __name__ == "__main__":
-    budget()
+budget() # Calls on the function and runs the program.
