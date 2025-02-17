@@ -2,7 +2,6 @@
 Homework5
 Name: Nathaniel Dutkin
 github link: github.com/ndutkin/school-python
-ADD COMMENTS TO DESCRIBE PROGRAM LATER WEEK!!!! 
 '''
 '''
     I used an f-string that prints num to 1 decimal point because the doctest requires the value inputted to be printed.

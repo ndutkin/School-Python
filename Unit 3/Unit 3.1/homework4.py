@@ -2,10 +2,10 @@
 Homework4
 Name: Nathaniel Dutkin
 github link: github.com/ndutkin/school-python
-ADD COMMENTS TO DESCRIBE PROGRAM LATER WEEK!!!! 
 '''
+
 '''
-Uses multipled if and else if statements to check if the number inputted is equal to a letter grade. The first if statement checks to make sure the score is within 0-100. Then it checks if the score is between 90-100 = A, 80-89 = B, and so on.
+Uses multiple if and else if statements to check if the number inputted is equal to a letter grade. The first if statement checks to make sure the score is within 0-100. Then it checks if the score is between 90-100 = A, 80-89 = B, and so on.
 '''
 def grade_calculator(score):
     if score < 0 or score > 100:
@@ -30,7 +30,6 @@ def even_or_odd(num):
         print("'even'")
     else:
         print("'odd'")
-    # your code here
     return 
 
 

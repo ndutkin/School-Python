@@ -2,7 +2,6 @@
 Homework6
 Name: Nathaniel Dutkin
 github link: github.com/ndutkin/school-python
-ADD COMMENTS TO DESCRIBE PROGRAM LATER WEEK!!!! 
 '''
 
 def div_by_seven(num):

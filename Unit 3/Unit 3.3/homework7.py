@@ -2,7 +2,6 @@
 Homework7
 Name: Nathaniel Dutkin
 github link: github.com/ndutkin/school-python
-ADD COMMENTS TO DESCRIBE PROGRAM LATER WEEK!!!! 
 '''
 
 '''
