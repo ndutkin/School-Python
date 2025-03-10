@@ -1,7 +1,7 @@
 '''
 Homework16
-Name:
-github link:
+Name: Nathaniel Dutkin
+github link: github.com/ndutkin/school-python
 '''
 '''
 Assigns values to sides A and B by indexing the first and second values from the tuple. Calculates the longest side of a right triangle by squaring both A and B, adding them together, and then taking the square root of the sum. Returns the result rounded to two decimal places.

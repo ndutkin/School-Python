@@ -1,12 +1,18 @@
 '''
 Homework1
-Name:
-github link: 
+Name: Nathaniel Dutkin
+github link: github.com/ndutkin/school-python
 '''
 
+'''
+Imports random module
+'''
 import random
-guess = None
 
+'''
+defines check function. Uses abs() function to get absolute value of difference between guess and actual number. Uses if and else if loop to return a value to console
+depending on the difference.
+'''
 def check(guess, actual_number):
     difference = abs(guess - actual_number)
     if difference == 0:
@@ -20,7 +26,11 @@ def check(guess, actual_number):
     elif difference >= 25:
         return "Cold"
     pass
-    
+
+'''
+Defines main function. Sets guess variable to None. Uses while loop to keep guessing the number as long as guess is not equal to actual number.
+Uses the check function to print results to console.
+'''
 def main(actual_number):
     guess = None
     

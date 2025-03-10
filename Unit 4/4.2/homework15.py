@@ -1,7 +1,7 @@
 '''
 Homework15
-Name:
-github link:
+Name: Nathaniel Dutkin
+github link: github.com/ndutkin/school-python
 '''
 '''
 First checks if number is equal to 0 or 1, if so, returns 1. Otherwise, returns the number multiplied by the factorial of the number minus 1.

@@ -1,7 +1,7 @@
 '''
 Homework18
-Name:
-github link:
+Name: Nathaniel Dutkin
+github link: github.com/ndutkin/school-python
 '''
 
 def iterate_dictionary(lst):

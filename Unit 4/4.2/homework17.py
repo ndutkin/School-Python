@@ -1,7 +1,7 @@
 '''
 Homework17
-Name:
-github link:
+Name: Nathaniel Dutkin
+github link: github.com/ndutkin/school-python
 '''
 
 
