@@ -8,7 +8,8 @@ github link:
 def frequency_counter(lst):
     # your code here
     '''
-    Creates a frequency dictionary by iterating through all inputs in a list. If the input is already been counted, it will increment the value by 1. If the value hasn't been counted, it will be added to the dictionary with a value of 1.
+    Creates a frequency dictionary by iterating through all inputs in a list. If the input is already been counted, it will increment the value by 1. If the value hasn't been counted, it will be added to the dictionary with a value of 1. Currently having issues with the doctest as my output is formatted 1: 1, 2: 2, etc. and doctest
+    requires 1:1,2:2, etc.
     '''
     frequency = {}
     for i in lst:
@@ -25,7 +26,7 @@ def translation(english_words):
     nato_words = { 'A': 'Alfa', 'B': 'Bravo', 'C': 'Charlie', 'D': 'Delta', 'E': 'Echo', 'F': 'Foxtrot', 'G': 'Golf', 'H': 'Hotel', 'I': 'India', 'J': 'Juliette',
                   'K': 'Kilo', 'L': 'Lima', 'M': 'Mike', 'N': 'November', 'O': 'Oscar', 'P': 'Papa', 'Q': 'Quebec', 'R': 'Romeo', 'S': 'Sierra',
                   'T': 'Tango', 'U': 'Uniform', 'V': 'Victor', 'W': 'Whiskey', 'X': 'X-Ray', 'Y': 'Yankee', 'Z': 'Zulu'}
-    for letter in english_words:
+    for letter in english_words.upper():
         print(nato_words[letter])
     return 
 
