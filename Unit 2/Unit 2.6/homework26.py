@@ -59,9 +59,10 @@ def budget():
     print("The percentage of each category is as follows: ")
     print(f"You pay {h:.2f}% for housing\n{u:.2f}% for utilities\n{g:.2f}% for groceries\n{t:.2f}% for transportation\n{h:.2f}% for healthcare\n{p:.2f}% for personal care\n{c:.2f}% for clothing\n{d:.2f}% for debt")
     print(f"Thank you for using the budget calculator!")
-    
+
     '''
     The code above will print the total spending of the user, and then it will print the percentage of each category that the user spends on.
     This will print seperate lines for each category, which I believe is the most readable way to display the information. 
     '''
+    
 budget() # Calls on the function and runs the program.
